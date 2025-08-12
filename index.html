@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lombame Lemma's Portfolio</title>
+    <meta name="title" content="Lombame Lemma cs Portfolio">
+    <meta name="description" content="This is a personal portfolio madeby Lombame">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/font/font.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+    <link rel="preload" as="image" href="./assets/images/hero-shape-1.png">
+    <link rel="preload" as="image" href="./assets/images/hero-shape-2.png">
+</head>
+<body>
+
+    <div class="preloader" data-preloader>
+        <span class="line"></span>
+    </div>
+
+    <header class="header" data-header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./assets/images/logo.svg" width="84" height="26" alt="logo">
+            </a>
+            
+            <nav class="navbar" data-navbar>
+                 
+                 <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                       <span>&times;</span>
+                </button>
+                <ul class="navbar-list">
+                    <li><a href="#home" class="navbar-link" data-nav-link>Home</a></li>
+                    <li><a href="#service" class="navbar-link" data-nav-link>Services</a></li>
+                    <li><a href="#about" class="navbar-link" data-nav-link>About</a></li>
+                    <li><a href="#project" class="navbar-link" data-nav-link>Project</a></li>
+                    <li><a href="#review" class="navbar-link" data-nav-link>Review</a></li>
+                    <li><a href="#contact" class="navbar-link" data-nav-link>Contact</a></li>
+                </ul>
+            </nav>
+
+            <a href="#" class="btn btn:hover">
+                <span class="span">Get A Quote</span>
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+            <button class="nav-open-btn btn:hover" aria-label="open menu" data-nav-toggler>
+                <span class="line line-1"></span>
+                <span class="line line-2"></span>
+            </button>
+
+            <div class="overlay " data-overlay data-nav-toggler></div>
+        </div>
+    </header> 
+    <main>
+        <article>
+            <div class="hero text-center" id="home">
+                <div class="container">
+                    <div class="banner-outline hasafter">
+                        <div class="hero-banner img-holder hasafter" style="--width: ;--height: ;" data-tilt>
+<img src="./assets/images/Lombame.jpg" width="500" height="680" alt="Lombame Lemma" class="img-cover">
+
+                        </div>
+                        <span class="span title">
+                            Lombame</span>
+                    </div>
+                    <div class="hero-content">
+                        <h1 class="h1 title">Get Your Product Identity From Me</h1>
+                        <div class="wrapper">
+                            <a href="#" class="btn btn:hover">
+                                <span class="span">Download CV</span>
+                                <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+                            </a>
+                            <p class="hero-text">From device to cloud to edge Innovate from every where with secure</p>
+                        </div>
+
+                    </div>
+                    <img src="./assets/images/hero-shape-1.png" width="559" height="232" alt="shape" class="shape shape-1">
+                    <img src="./assets/images/hero-shape-2.png" width="1358" height="497" alt="shape" class="shape shape-2">
+
+              </div>
+            </div>
+            <section class="service text-center" aria-label="my services" id="service">
+            <ul class="service-list">
+                <li class="service-item">
+                    <div class="service-card">
+                        <div class="card-icon">
+                            <img src="./assets/images/service-icon-1.svg"width="80" height="80" loading="lazy" alt="service icon" class="">
+                        </div>
+                        <h3 class="card-title">
+                            <a href="#">
+                            web<br>Development
+                        </a>
+                        </h3>
+                    </div>
+                </li>
+            </ul>
+             <li class="service-item">
+                    <div class="service-card">
+                        <div class="card-icon">
+                            <img src="./assets/images/service-icon-2.svg"width="80" height="80" loading="lazy" alt="service icon" class="">
+                        </div>
+                        <h3 class="card-title">
+                            <a href="#">
+                            Communication<br>Skill
+                        </a>
+                        </h3>
+                    </div>
+                </li>
+                <li class="service-item">
+    <div class="service-card">
+        <div class="card-icon">
+            <img src="./assets/images/download.jpg" width="80" height="80" loading="lazy" alt="service icon">
+        </div>
+        <h3 class="card-title">
+            <a href="#">
+                Mathematics
+            </a>
+        </h3>
+    </div>
+</li>
+            </section>
+            <section class="section about" aria-label="about-me" id="about">
+<div class="container">
+    <div class="tab-container">
+        <ul class="tab-btn-list">
+            <li class="tab-btn-item">
+                <button class="tab-btn title h6 active" data-tab-btn="about">About Me
+                </button>
+            </li>
+             <li class="tab-btn-item">
+                <button class="tab-btn title h6 " data-tab-btn="Tech skills">Tech Skills
+                </button>
+            </li>
+            <li class="tab-btn-item">
+                <button class="tab-btn title h6 " data-tab-btn="awards">Awards
+                </button>
+            </li>
+            <li class="tab-btn-item">
+                <button class="tab-btn title h6 " data-tab-btn="Additional skills">Additional skills
+                </button>
+            </li>
+        </ul>
+    </div>
+</div>
+            </section>
+        </article>
+    </main>
+
+    <script src="./assets/js/script.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
